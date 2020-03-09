@@ -19,11 +19,11 @@ body {
   height: 400px;
   margin: 0 auto;
   margin-top: 15%;
-  opacity: 0.7;
   text-align:center;
 }
 
 #input-login {
+  opacity: 0.7;
   width: 60%;
   height: 30px;
   margin: 10px;
