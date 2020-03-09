@@ -3,7 +3,7 @@ import React from 'react';
 export default class Login extends React.Component {
     render(){
         return(
-            <div>
+            <div className="login-overlay">
                 <div>
                     <h3 style={{backgroundColor: 'white', width: '200px', marginLeft: '10px'}}><a href="#">&#9855; Better accessibility</a></h3>
                 </div>
