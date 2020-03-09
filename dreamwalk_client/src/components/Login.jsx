@@ -10,12 +10,14 @@ export default class Login extends React.Component {
                 <div className="login-container">
                     <form onSubmit={this.handleSubmit}>
                         <label></label>
-                        <input placeholder="Login" id="input-login"></input>
+                        <input placeholder="email" id="input-login"></input>
                         <br />
                         <label></label>
                         <input placeholder="password" id="input-login"></input>
                         <br />
                         <button id="submit-login-button">Submit</button>
+                        <p><a href="#" style={{textDecoration: 'none', color: 'white', fontSize: '13px' }}>Forgot Password?</a></p>
+                        <p><a href="#" style={{textDecoration: 'none', color: 'white', fontSize: '13px' }}>Don't have an account?</a></p>
                     </form>
                 </div>
             </div>
