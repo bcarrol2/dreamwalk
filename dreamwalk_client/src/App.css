@@ -1,0 +1,39 @@
+body {
+  background-image: url(./img/login-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-overlay {
+  background-color: rgba(0, 85, 212, 0.493);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+.login-container {
+  width: 325px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 15%;
+  opacity: 0.7;
+  text-align:center;
+}
+
+#input-login {
+  width: 60%;
+  height: 30px;
+  margin: 10px;
+}
+
+#submit-login-button {
+  width: 40%;
+  height: 30px;
+  border-radius: 10%;
+  background-color: cadetblue;
+  color: #fff;
+  margin-top: 15px;
+}
