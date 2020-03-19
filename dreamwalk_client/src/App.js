@@ -11,6 +11,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/access" exact component={Access} />
+          <Route path="*" exact component={Login} />
         </Switch>
       </Router>
     </div>
